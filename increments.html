@@ -1,0 +1,58 @@
+<!doctype html>
+<!--
+JS Pair Assignment Game
+Precious Okongwu and Abiya Rehman
+-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Coin Collector</title>
+    <link rel="stylesheet" href="increment.css">
+</head>
+
+<body>
+    <script src="increments.js"></script>
+
+    <div id="container">
+        <div class="column"> 
+        <h2>Click Here</h2>
+        <img id="coinimage" src="coin.png" alt="Coin" width="300px">
+        <p>Clicks: <p id="clickcount">0</p></p>
+        </div>
+    
+        <div class="column">
+            <h2>Score</h2>
+            <p id="amount"> 0 <p>Coins</p></p>
+        </div>
+        <div class="column">
+            <h2>Upgrades</h2>
+            <p>You have <p id="upgradecounter"> 0 </p> <p>Upgrades</p>
+            <div class="upgrades">
+            <button id="double">Double <p id="doublenumber"> - 5 </p></button>
+            </div>
+            <div class="upgrades">
+            <button id="multiple">Multiply <p id="multiplenumber"> - 25 </p></button>
+            </div>
+            <div class="upgrades">
+            <button id="auto">Auto Click <p id="autonumber"> - 100 </p></button>
+            </div>
+            <div class="upgrades">
+            <button id="speed">Speed Up <p id="speednumber"> - 500 </p></button>
+            </div>
+            <div>
+            <div id="rewards"></div>
+            <div id="message" style="display:none;"></div>
+            <h2>Rewards</h2>
+            </div>
+            <div>
+                <button id="help">Help</button>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</body>
+
+</html>
